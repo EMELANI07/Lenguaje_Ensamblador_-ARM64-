@@ -1,4 +1,4 @@
-# Elabore práctica en el emulador 8 bit Assembler ( emulador web )
+# Elabore práctica en el emulador 8 bit Assembler (emulador web)
 
 👤 **Información General**
 
