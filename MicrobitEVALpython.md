@@ -115,3 +115,31 @@ while True:
 Con lo anterior visto se aprendió bastante del lenguaje Python y como se puede utilizar en un micro bit, estas practicas fueron muy entretenidas y enriquecedoras. 
 
 las practicas iban aumentando el nivel con el pasar de los días y se podían lograr diferentes resultados con los códigos, si necesitaba inspiración solo debía ir al apartado de ideas o en makecode.microbit, la practica que mas me gusto fue la del hámster mascota, pero las demás igualmente fueron entretenidas.
+
+---
+# Sobre el compilador en macOS con chips Apple M (Apple Silicon)
+
+
+En las MacBook con procesador Apple M (M1, M2, M3, etc.) el compilador que se usa normalmente es "Clang", que viene con las herramientas de Xcode.
+
+Aunque el procesador es de tipo ARM (igual que algunos celulares o Raspberry Pi), en la práctica no todo funciona igual que en Linux. Hay pequeñas diferencias importantes cuando se programa a bajo nivel.
+
+en ensamblador por ejemplo:
+
+-   La forma de hacer llamadas al sistema es diferente.
+-   Se usan otros números y registros.
+-   El programa se compila de forma distinta.
+
+Un ejemplo de esto lo vi en el código que muestra un “Hola mundo” en ensamblador para Mac con chip M:  [gist.github.com/IoTeacher](https://gist.github.com/IoTeacher/2794445dda77f272a6b5ce6a665ac9bd)
+
+Para compilar en una Mac normalmente se usa un comando como:
+
+Bash
+
+```
+clang programa.s -o programa
+```
+
+Aunque también es necesario instalar las "Command Line Tools" de Xcode para poder compilar programas desde la terminal.
+
+Por lo cual, aunque la Mac es muy rápida y moderna, cuando uno quiere programar cerca del hardware hay que tomar en cuenta que macOS funciona un poco diferente a Linux, incluso aunque este usando el mismo tipo de procesador.
