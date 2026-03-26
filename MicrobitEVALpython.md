@@ -76,7 +76,7 @@ while True:
 ## 3. Uso de Radio 900 MHz 👾
 En esta practica no hubo muchos problemas, con los códigos de ejemplo de la plataforma donde se realizo, en este caso [python.microbit](https://python.microbit.org/v/3/reference) solo que en la parte "Grupo" de la radio se cambio de 23 a 20, para que el trabajo de los demás compañeros no interfiriera en la señal.
 
-> Por medio de la radio se envía la señal al receptor, mensaje: "Hola", aunque no se 
+> Por medio de la radio se envía la señal al receptor, mensaje: "Hola", en el video se muestra la llegada del mensaje.
 
 https://github.com/user-attachments/assets/df108c69-5777-483a-b5ad-5d3c1cde4eb8
 
@@ -112,4 +112,6 @@ while True:
 ---
 ### Aprendido
 
-Con lo anterior visto se aprendió bastante del lenguaje Python y como se puede utilizar en un micro bit, estas practicas fueron muy entretenidas y enriquecedoras, las practicas iban aumentando el nivel con el pasar de los días y se podían lograr diferentes resultados con los códigos, fue muy entretenido y aprendí un poco mas de estos dispositivos, también como se programan. 
+Con lo anterior visto se aprendió bastante del lenguaje Python y como se puede utilizar en un micro bit, estas practicas fueron muy entretenidas y enriquecedoras. 
+
+las practicas iban aumentando el nivel con el pasar de los días y se podían lograr diferentes resultados con los códigos, si necesitaba inspiración solo debía ir al apartado de ideas o en makecode.microbit, la practica que mas me gusto fue la del hámster mascota, pero las demás igualmente fueron entretenidas.
